@@ -1,16 +1,21 @@
 import Image from "next/dist/client/image";
 import portada09 from '../public/portada/portada09.jpg';
+import portada11 from '../public/portada/portada11.jpg';
+import portada10 from '../public/portada/portada10.jpg';
+import portada12 from '../public/portada/portada12.jpg';
+import portada13 from '../public/portada/portada13.jpg';
 
 const Carousel = () => {
   return (
     <div id="carousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
       <div className="carousel-item active">
-          <img
-            src="../portada/portada12.jpg"
+      <Image 
+            layout="responsive"
             className="d-block w-100"
-            alt=""
-          ></img>
+            src={portada12}
+            alt="camping bella vista"
+          ></Image>
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1>Un lugar acogedor para nuestros visitantes.</h1>
             {/* <p>
@@ -19,11 +24,13 @@ const Carousel = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img
-            src="../portada/portada10.jpg"
+        <Image 
+            layout="responsive"
             className="d-block w-100"
-            alt=""
-          ></img>
+            src={portada10}
+            alt="camping bella vista"
+          ></Image>
+          
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1>Temperaturas de 25ºC en epoca estival.</h1>
             {/* <p>
@@ -32,11 +39,12 @@ const Carousel = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img
-            src="../portada/portada11.jpg"
+        <Image 
+            layout="responsive"
             className="d-block w-100"
-            alt=""
-          ></img>
+            src={portada11}
+            alt="camping bella vista"
+          ></Image>
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1>Paz y naturaleza en un ambiente familiar.</h1>
             {/* <p>
@@ -49,7 +57,7 @@ const Carousel = () => {
             layout="responsive"
             className="d-block w-100"
             src={portada09}
-            alt=""
+            alt="camping bella vista"
           ></Image>
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1 className="fw-normal">
@@ -62,11 +70,12 @@ const Carousel = () => {
         </div>
   
         <div className="carousel-item">
-          <img
-            src="../portada/portada13.jpg"
+        <Image 
+            layout="responsive"
             className="d-block w-100"
-            alt=""
-          ></img>
+            src={portada13}
+            alt="camping bella vista"
+          ></Image>
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1>Enclave natural de extraordinaria belleza.</h1>
             {/* <p>
