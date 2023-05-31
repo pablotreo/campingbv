@@ -47,12 +47,12 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" target="_blank" href="https://www.instagram.com/bellavistacamping/">
+              <a className="nav-link active" target="_blank" href="https://www.instagram.com/bellavistacamping/" rel="noreferrer">
                 <i className="fs-4 fab fa-instagram"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" target="_blank" href="https://www.facebook.com/bellavistacamping/">
+              <a className="nav-link active" target="_blank" href="https://www.facebook.com/bellavistacamping/" rel="noreferrer">
                 <i className="fs-4 fab fa-facebook"></i>
               </a>
             </li>
