@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/dist/client/image";
 
 export default function Contacto() {
   return (
