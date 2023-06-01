@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import portada09 from '../public/portada/portada09.jpg';
 import portada11 from '../public/portada/portada11.jpg';

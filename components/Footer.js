@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4 t-footer">
             <span className="">Clima:</span>
-            <WeatherComponent />
+            {/* <WeatherComponent /> */}
           </div>
         </div>
       </div>
