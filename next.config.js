@@ -1,3 +1,10 @@
+// module.exports = {
+//   reactStrictMode: true,
+// }
+
 module.exports = {
-  reactStrictMode: true,
+  images: {
+    loader: 'cloudinary',
+    path: '/',
+  },
 }

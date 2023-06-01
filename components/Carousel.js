@@ -1,4 +1,4 @@
-import Image from "next/dist/client/image";
+import Image from "next/image";
 import portada09 from '../public/portada/portada09.jpg';
 import portada11 from '../public/portada/portada11.jpg';
 import portada10 from '../public/portada/portada10.jpg';
