@@ -3,7 +3,7 @@ import Image from "next/image";
 import portada09 from '../public/portada/portada09.jpg';
 import portada11 from '../public/portada/portada11.jpg';
 import portada10 from '../public/portada/portada10.jpg';
-import portada12 from '../public/portada/portada12.jpg';
+// import portada12 from '../public/portada/portada12.jpg';
 import portada13 from '../public/portada/portada13.jpg';
 
 const Carousel = () => {
@@ -14,8 +14,10 @@ const Carousel = () => {
       <Image 
             layout="responsive"
             className="d-block w-100"
-            src={portada12}
+            src="/portada/portada12.jpg"
             alt="camping bella vista"
+            width={1200}
+            height={450}
           ></Image>
           <div className="carousel-caption d-none d-md-block subtitulo">
             <h1>Un lugar acogedor para nuestros visitantes.</h1>
